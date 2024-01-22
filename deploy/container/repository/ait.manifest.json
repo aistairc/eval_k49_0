@@ -1,0 +1,82 @@
+{
+  "name": "eval_k49_0.1",
+  "description": "AIT template (docker image regist to remote)",
+  "source_repository": "",
+  "version": "0.1",
+  "quality": "https://ait-hub.pj.aist.go.jp/ait-hub/api/0.0.1/qualityDimensions/機械学習品質マネジメントガイドライン第三版/B-1データセットの被覆性",
+  "keywords": [
+    "AIT",
+    "K49"
+  ],
+  "references": [],
+  "licenses": [],
+  "inventories": [
+    {
+      "name": "k49-train-imgs",
+      "type": "dataset",
+      "description": "かな文字画像",
+      "requirement": {
+        "format": [
+          "npz"
+        ]
+      }
+    },
+    {
+      "name": "k49-train-labels",
+      "type": "dataset",
+      "description": "かな文字ラベル",
+      "requirement": {
+        "format": [
+          "npz"
+        ]
+      }
+    },
+    {
+      "name": "k49_classmap",
+      "type": "dataset",
+      "description": "かな文字ラベルマスタ",
+      "requirement": {
+        "format": [
+          "csv"
+        ]
+      }
+    }
+  ],
+  "parameters": [],
+  "report": {
+    "measures": [],
+    "resources": [
+      {
+        "name": "example_images",
+        "type": "picture",
+        "description": "plot_sample"
+      },
+      {
+        "name": "example_images_char",
+        "type": "picture",
+        "description": "plot_sample"
+      },
+      {
+        "name": "hierarchical_clustering",
+        "type": "picture",
+        "description": "plot_sample"
+      },
+      {
+        "name": "hierarchical_clustering_examples",
+        "type": "picture",
+        "description": "plot_sample"
+      },
+      {
+        "name": "hierarchical_clustering_pie",
+        "type": "picture",
+        "description": "plot_sample"
+      }
+    ]
+  },
+  "downloads": [
+    {
+      "name": "Log",
+      "description": "AIT実行ログ"
+    }
+  ]
+}
